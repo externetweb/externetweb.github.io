@@ -1,6 +1,6 @@
 body {
-  background-color: #b3d9ff; /* Baby blue like EXTERNET */
-  font-family: 'Product Sans', Arial, sans-serif;
+  background-color: #b3d9ff;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -14,7 +14,6 @@ body {
   font-size: 52px;
   color: #003366;
   margin-bottom: 25px;
-  letter-spacing: 1px;
 }
 
 form {
@@ -28,8 +27,8 @@ form {
   font-size: 18px;
   border: none;
   border-radius: 999px;
-  outline: none;
   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  outline: none;
 }
 
 button {
@@ -45,12 +44,4 @@ button {
 
 button:hover {
   background-color: #3367d6;
-}
-
-iframe {
-  width: 90%;
-  height: 80vh;
-  margin-top: 20px;
-  border: 2px solid #003366;
-  border-radius: 12px;
 }
