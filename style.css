@@ -1,0 +1,56 @@
+body {
+  background-color: #b3d9ff; /* Baby blue like EXTERNET */
+  font-family: 'Product Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  padding: 40px 20px;
+}
+
+.logo {
+  font-size: 52px;
+  color: #003366;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+#searchBox {
+  width: 60%;
+  max-width: 600px;
+  padding: 12px 18px;
+  font-size: 18px;
+  border: none;
+  border-radius: 999px;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+button {
+  margin-left: 10px;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 999px;
+  background-color: #4285f4;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3367d6;
+}
+
+iframe {
+  width: 90%;
+  height: 80vh;
+  margin-top: 20px;
+  border: 2px solid #003366;
+  border-radius: 12px;
+}
