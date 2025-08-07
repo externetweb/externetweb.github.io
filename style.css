@@ -20,7 +20,7 @@ form {
   margin-bottom: 20px;
 }
 
-#searchBox {
+input[type="text"] {
   width: 60%;
   max-width: 600px;
   padding: 12px 18px;
@@ -42,6 +42,28 @@ button {
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #3367d6;
+#results {
+  text-align: left;
+  margin: 30px auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+.result-item {
+  background: white;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.result-item a {
+  font-size: 20px;
+  color: #003366;
+  text-decoration: none;
+}
+
+.result-item p {
+  margin-top: 5px;
+  color: #333;
 }
